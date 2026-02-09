@@ -6,7 +6,7 @@ metadata:
     name: expense
     region: us-east-1
 managedNodeGroups:
-  - name: roboshop-dev
+  - name: expense
     instanceTypes: ["t3.small"]
     desiredCapacity: 3 #  by default this value is 3
     spot: true
